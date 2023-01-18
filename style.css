@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 236, 236);
+    font-family: sans-serif;
+
+}
+
+.calendar-container{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 6px 6px 6px rgba(0,0,0, 0.1);
+}
+
+.day-month-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(11, 185, 185);
+    background-color: white;
+    margin-top: 50px;
+}
+
+.month-section-day p{
+    font-size: 70px;
+    padding-right: 10px;
+    border-right: 1px solid;
+    margin: 0;
+}
+
+.month-section-month p{
+    padding-left: 10px;
+    padding-bottom: 3px;
+    margin: 0;
+    font-size: 23px;
+}
+
+.weekdays-container{
+    display: flex;
+    width: 89%;
+    font-size: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.weekdays-container P{
+    background-color: rgb(109, 108, 108);
+    margin: 1px;
+    display: flex;
+    padding: 3px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.weekdays-container .diff{
+    background-color: rgb(11, 185, 185);
+}
+
+
+
+.days-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.days{
+    display: flex;
+    width: 89%;
+   
+    flex-wrap: wrap;
+    
+    
+}
+
+.days p{
+    width: 45px;
+    background-color: rgb(252, 249, 249);
+    height: 40px;
+    font-size: 10px;
+    margin: 0.9px;
+    padding-left:4px;
+    padding-top:4px;
+}
